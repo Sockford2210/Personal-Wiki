@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  wiki_server:
+    build: ./docker/apache
+    container_name: wiki_server
+    ports:
+      - "9000:80"
+    volumes:
+      - ./dokuwiki:/var/www/html
