@@ -6,3 +6,5 @@ wiki:pagename
 some:namespaces
 wiki:nonexisting
 wiki:dokuwiki
+docker
+openssl

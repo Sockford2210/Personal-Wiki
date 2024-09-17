@@ -1,0 +1,7 @@
+2024-09-17 19:29:43	/var/www/html/inc/parserutils.php(459)	E_WARNING: unserialize(): Error at offset 668 of 1102 bytes
+  #0 [internal function]: dokuwiki\ErrorHandler::errorHandler(2, 'unserialize(): ...', '/var/www/html/i...', 459)
+  #1 /var/www/html/inc/parserutils.php(459): unserialize('a:2:{s:7:"curre...')
+  #2 /var/www/html/inc/parserutils.php(264): p_read_metadata('start', true)
+  #3 /var/www/html/inc/common.php(262): p_get_metadata('start')
+  #4 /var/www/html/doku.php(101): pageinfo()
+  #5 {main}

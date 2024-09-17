@@ -24,3 +24,6 @@ aggregation
 description
 appropriate
 cataloguing
+environment
+development
+dockerfiles

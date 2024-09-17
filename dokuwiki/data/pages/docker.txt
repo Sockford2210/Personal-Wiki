@@ -1,0 +1,14 @@
+====== Docker ======
+
+Docker allows 'containers' to be created acting as stripped down virtual machines, which can be used to run applications.
+Internal docker networks can be configured to allow containers to talk to each other, this makes them useful for creating a simulated environment. 
+
+Containers remove the OS layer dependency of an application, therefore applications configured to run in containers can run in a docker container on any environment (provided docker is running on that environment).
+
+For example, a containerised website can run in docker on both the development machine in containers and in an Azure app service configured to run docker.
+
+Docker containers are built from 'Images' much the same way as virtual machine may be started from an OS snapshot
+
+===== DockerFile =====
+Dockerfiles contain instructions 
+
