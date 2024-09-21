@@ -1,0 +1,5 @@
+====== Overview ======
+Code architecture concerns how source code is ordered and stored within a system, there are many different patterns available for designing a system and the benefits and conns need to be weighed up against the specific requirements of your system when deciding which patterns to follow.
+
+====== Further Reading ======
+[[https://blog.ndepend.com/software-architecture-5-patterns-you-need-know/]]

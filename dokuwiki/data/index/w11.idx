@@ -27,3 +27,6 @@ cataloguing
 environment
 development
 dockerfiles
+abstraction
+controllers
+persistence

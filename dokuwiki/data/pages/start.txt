@@ -21,6 +21,10 @@ This is a wiki for storing and cataloguing my technical knowledge for personal a
     * C#
     * C++
     * Python
+  * [[code architecture|Code Architecture]]
+    * [[application layers|Layers]]
+    * [[domain driven design|Domain Driven Design]]
+    * [[factory pattern|Factory Pattern]]
   * Infrastructure
 
 

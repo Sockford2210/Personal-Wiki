@@ -8,3 +8,7 @@ wiki:nonexisting
 wiki:dokuwiki
 docker
 openssl
+application_layers
+code_architecture
+domain_driven_design
+factory_pattern

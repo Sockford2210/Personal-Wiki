@@ -1,0 +1,29 @@
+====== Overview ======
+
+Layered architecture is a very common approach within software arhcitecture, particularly within monilithic applications, 
+
+The general benefits of following a layered approach to architecture are that it is:
+  * Simple
+  * Widely understood 
+  * Provides layers of isolation/abstraction between code, allowing changes to be made in single layers without impact code in others.
+  * Makes components easy to classify, when implementing with attention paid to ensure separation of concerns, it ensures each layer performs it's own function.
+
+====== Layers ======
+===== Presentation Layer =====
+The presentation or UI layer defines the way that users interact with the underlying application, this is where your controllers, views etc will live.
+
+===== Application Layer =====
+Concerns the main program of the system.
+
+===== Business Layer =====
+Also known as the **Domain Layer**
+This is where business logic sits and defines the business compenents of your system. This is where business models such as 'Products', 'Accounts' etc that are directly related to business concerns might live.
+
+===== Persistence Layer =====
+This contains the code required to access the database layer, and will contain the code required to manipulate content in the database such as SQL scripts and connection details.
+
+===== Database Layer =====
+The lowest layer, and will handle CRUD operations directly with the database, as well as containing things such as indexes to expose data but keep stuff that application layer doesn't need to know about hidden. 
+
+===== Further Reading =====
+[[https://www.indeed.com/career-advice/career-development/what-are-the-layers-in-software-architecture]]
