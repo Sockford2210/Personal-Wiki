@@ -11,6 +11,9 @@ This is a wiki for storing and cataloguing my technical knowledge for personal a
     * Security
       * Certificates
         * [[openssl|OpenSSL]]
+    * Windows
+      * [[msys2|Msys2]]
+      * [[mingw|MinGW]]
   * Azure
     * Applications
       * Azure Logic Apps
