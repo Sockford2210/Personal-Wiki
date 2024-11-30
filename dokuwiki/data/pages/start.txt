@@ -25,6 +25,7 @@ This is a wiki for storing and cataloguing my technical knowledge for personal a
     * C++
     * Python
   * [[code architecture|Code Architecture]]
+    * [[object oriented programming|Object Oriented Programming]]
     * [[application layers|Layers]]
     * [[domain driven design|Domain Driven Design]]
     * [[factory pattern|Factory Pattern]]

@@ -1,0 +1,22 @@
+====== Overview ======
+Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+
+OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well suited for software that is large, complex and actively updated or maintained. This includes programs for manufacturing and design, as well as mobile applications. For example, OOP can be used for manufacturing system simulation software.[[https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP|More Reading]]
+
+====== Encapsulation ======
+Encapsulation refers to the hiding of an object properties away from the user, this is done by declaring attributes and members a private so that they cannot be accessed from outside of the class. I.e. the methods and the data that the methods operate on are combined into a single unit (the object), not allowing outside to code to directly modify data helps maintain it's integrity.
+
+Accessor and Mutator functions are then used to allow the modification of private attributes.
+
+This is to encourage decoupling of classes so that client code only has access to the details of a class which it is concerned with.
+
+====== Inheritance ======
+In object oriented programming inheritence refers to the the basing of classes of a base class, thus inheriting the properties of that base class. This allows for the extension of objects without having to modify the object itself.
+E.g you have an 'Animal' class which contains animal specific properties such as age, gender etc. If you want to support 'dogs' in the code you may need a class which has properties such as 'breed' along with all of the underlying properties defined in 'Animal'. Encapsulation allows you to create a 'Dog' class which will implement 'Animal' as it's base class and thus inherit all of it's properties, without having to manually copy them or modify animal, this is the basis of the Open-Closed principal.
+
+Access Specifiers allow you to specify which properties in a base class are available to the derived class.
+
+====== Polymorphism ======
+Polymorphism allows a derived class to overwrite methods inherited from a base class, e.g. if 'Animal' has a method called 'Run' that simulates the animal moving, you may want to overwrite this in the 'Dog' class to have a more dog specific implementation.
+
+
