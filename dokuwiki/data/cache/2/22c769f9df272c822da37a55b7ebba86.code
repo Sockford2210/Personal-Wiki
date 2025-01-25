@@ -1,0 +1,8 @@
+<span class="kw1">if</span> score <span class="sy0">&gt;=</span> <span class="nu0">80</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'You pass the course with flying colours!'</span><span class="br0">&#41;</span>
+&nbsp;
+<span class="kw1">elif</span> score <span class="sy0">&gt;</span> <span class="nu0">65</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'You pass the course! Talk to your instructor.'</span><span class="br0">&#41;</span>
+&nbsp;
+<span class="kw1">else</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'You do not pass the course!'</span><span class="br0">&#41;</span>

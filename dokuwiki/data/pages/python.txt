@@ -1,0 +1,96 @@
+=====Python=====
+====Case Conventions====
+  ***Classes** - PascalCase
+  ***Functions** - lower_snake_case
+  ***Variables** - lower_snake_case
+
+Indention is important in python as it defines scope. E.g. all code inside of a function is indented on level deeper than the function definition statement.
+
+Single line comments are defined by a '#' at the beginning of text you want to comment out, the comment will ontinue for the rest of that line.
+
+====Console====
+===Input===
+A string input can be collected from the console using the 'input' method
+<code python>
+name = input('What is your name?')
+</code>
+
+===Output===
+String can be output to the console using the 'print' method:
+<code python>
+print('My name is Ryan')
+</code>
+
+====Strings====
+Strings in python can be defined with double or single quotations.
+Formatted literal strings
+A formatted literal string can be created by adding an 'f' to the beginning of the string or by using the string.format() function, you can then reference string variables from within the string.
+
+<code python>
+print(f'Very nice to meet you, {name}!')
+print('Very nice to meet you, {}!'.format(name))
+</code>
+
+====Variables====
+Variables are declared with the following syntax, name = "Ryan"
+
+===Casting===
+Where necessary you can cast a variable to a different type, <code python>temperature = str(97.5)</code>
+int(), float() and bool() are other examples.
+
+You can get the name of the datatype of variable using the type() method
+e.g. type(temperature)
+
+====Conditional Statements====
+Conditional statements in python can be defined as **if**, **elif**, and **else** where an elif statement only executes if the condition of the preceding it statement was not met.
+<code python>
+if score >= 80:
+   print('You pass the course with flying colours!')
+ 
+elif score > 65:
+   print('You pass the course! Talk to your instructor.')
+  
+else:
+   print('You do not pass the course!')
+</code>
+
+====Loops====
+There are two different categories of loop in python, **for** and **while**.
+
+===For===
+For loops iterate through an array and define the single item inline in the loop like a foreach.
+<code python>
+nums = [3, 4, 16]
+
+for num in nums:
+   print(num ** 2)
+</code>
+
+===While===
+While loops define a condition and repeat until that condition is no longer true.
+<code python>
+i = 3
+while i < 258:
+   print(i)
+   i = i ** 2
+</code>
+
+There are three keywords used to control/disrupt loops:
+  ***continue** - skips to the next iteration.
+  ***break** - exits the loop
+  ***pass** - literally does nothing, is effectively just a placeholder akin to a commented out line saying 'Do nothing'
+
+====Error Handling====
+Python code can be wrapped in a **try** block, which if an unhandled error occurs, will fall over to the subsequent **except** block, an optional **finally** block contains code that will execute regardless of whether the code in the try block failed or not.
+<code python>
+nums = ['x', 'y', 'z']
+ 
+try:
+   print(sum(nums))
+ 
+except:
+   print('Cannot print the sum! Your variables are not numbers.')
+ 
+finally:
+   print('Hope you got the result you want!')
+</code>  

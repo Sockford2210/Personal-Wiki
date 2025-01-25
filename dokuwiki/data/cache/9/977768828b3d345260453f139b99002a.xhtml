@@ -1,0 +1,176 @@
+
+<h2 class="sectionedit1" id="python">Python</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Python&quot;,&quot;hid&quot;:&quot;python&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-17&quot;} -->
+<h3 class="sectionedit2" id="case_conventions">Case Conventions</h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"><strong>Classes</strong> - PascalCase</div>
+</li>
+<li class="level1"><div class="li"><strong>Functions</strong> - lower_snake_case</div>
+</li>
+<li class="level1"><div class="li"><strong>Variables</strong> - lower_snake_case</div>
+</li>
+</ul>
+
+<p>
+Indention is important in python as it defines scope. E.g. all code inside of a function is indented on level deeper than the function definition statement.
+</p>
+
+<p>
+Single line comments are defined by a &#039;#&#039; at the beginning of text you want to comment out, the comment will ontinue for the rest of that line.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Case Conventions&quot;,&quot;hid&quot;:&quot;case_conventions&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;18-446&quot;} -->
+<h3 class="sectionedit3" id="console">Console</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="input">Input</h4>
+<div class="level4">
+
+<p>
+A string input can be collected from the console using the &#039;input&#039; method
+</p>
+<pre class="code python">name <span class="sy0">=</span> <span class="kw2">input</span><span class="br0">&#40;</span><span class="st0">'What is your name?'</span><span class="br0">&#41;</span></pre>
+
+</div>
+
+<h4 id="output">Output</h4>
+<div class="level4">
+
+<p>
+String can be output to the console using the &#039;print&#039; method:
+</p>
+<pre class="code python"><span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'My name is Ryan'</span><span class="br0">&#41;</span></pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Console&quot;,&quot;hid&quot;:&quot;console&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;447-729&quot;} -->
+<h3 class="sectionedit4" id="strings">Strings</h3>
+<div class="level3">
+
+<p>
+Strings in python can be defined with double or single quotations.
+Formatted literal strings
+A formatted literal string can be created by adding an &#039;f&#039; to the beginning of the string or by using the string.format() function, you can then reference string variables from within the string.
+</p>
+<pre class="code python"><span class="kw1">print</span><span class="br0">&#40;</span>f<span class="st0">'Very nice to meet you, {name}!'</span><span class="br0">&#41;</span>
+<span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Very nice to meet you, {}!'</span>.<span class="me1">format</span><span class="br0">&#40;</span>name<span class="br0">&#41;</span><span class="br0">&#41;</span></pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Strings&quot;,&quot;hid&quot;:&quot;strings&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:4,&quot;range&quot;:&quot;730-1148&quot;} -->
+<h3 class="sectionedit5" id="variables">Variables</h3>
+<div class="level3">
+
+<p>
+Variables are declared with the following syntax, name = “Ryan”
+</p>
+
+</div>
+
+<h4 id="casting">Casting</h4>
+<div class="level4">
+
+<p>
+Where necessary you can cast a variable to a different type, 
+</p>
+<pre class="code python">temperature <span class="sy0">=</span> <span class="kw2">str</span><span class="br0">&#40;</span><span class="nu0">97.5</span><span class="br0">&#41;</span></pre>
+
+<p>
+int(), float() and bool() are other examples.
+</p>
+
+<p>
+You can get the name of the datatype of variable using the type() method
+e.g. type(temperature)
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Variables&quot;,&quot;hid&quot;:&quot;variables&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:5,&quot;range&quot;:&quot;1149-1494&quot;} -->
+<h3 class="sectionedit6" id="conditional_statements">Conditional Statements</h3>
+<div class="level3">
+
+<p>
+Conditional statements in python can be defined as <strong>if</strong>, <strong>elif</strong>, and <strong>else</strong> where an elif statement only executes if the condition of the preceding it statement was not met.
+</p>
+<pre class="code python"><span class="kw1">if</span> score <span class="sy0">&gt;=</span> <span class="nu0">80</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'You pass the course with flying colours!'</span><span class="br0">&#41;</span>
+&nbsp;
+<span class="kw1">elif</span> score <span class="sy0">&gt;</span> <span class="nu0">65</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'You pass the course! Talk to your instructor.'</span><span class="br0">&#41;</span>
+&nbsp;
+<span class="kw1">else</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'You do not pass the course!'</span><span class="br0">&#41;</span></pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Conditional Statements&quot;,&quot;hid&quot;:&quot;conditional_statements&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:6,&quot;range&quot;:&quot;1495-1923&quot;} -->
+<h3 class="sectionedit7" id="loops">Loops</h3>
+<div class="level3">
+
+<p>
+There are two different categories of loop in python, <strong>for</strong> and <strong>while</strong>.
+</p>
+
+</div>
+
+<h4 id="for">For</h4>
+<div class="level4">
+
+<p>
+For loops iterate through an array and define the single item inline in the loop like a foreach.
+</p>
+<pre class="code python">nums <span class="sy0">=</span> <span class="br0">&#91;</span><span class="nu0">3</span><span class="sy0">,</span> <span class="nu0">4</span><span class="sy0">,</span> <span class="nu0">16</span><span class="br0">&#93;</span>
+&nbsp;
+<span class="kw1">for</span> num <span class="kw1">in</span> nums:
+   <span class="kw1">print</span><span class="br0">&#40;</span>num ** <span class="nu0">2</span><span class="br0">&#41;</span></pre>
+
+</div>
+
+<h4 id="while">While</h4>
+<div class="level4">
+
+<p>
+While loops define a condition and repeat until that condition is no longer true.
+</p>
+<pre class="code python">i <span class="sy0">=</span> <span class="nu0">3</span>
+<span class="kw1">while</span> i <span class="sy0">&lt;</span> <span class="nu0">258</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span>i<span class="br0">&#41;</span>
+   i <span class="sy0">=</span> i ** <span class="nu0">2</span></pre>
+
+<p>
+There are three keywords used to control/disrupt loops:
+</p>
+<ul>
+<li class="level1"><div class="li"><strong>continue</strong> - skips to the next iteration.</div>
+</li>
+<li class="level1"><div class="li"><strong>break</strong> - exits the loop</div>
+</li>
+<li class="level1"><div class="li"><strong>pass</strong> - literally does nothing, is effectively just a placeholder akin to a commented out line saying &#039;Do nothing&#039;</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Loops&quot;,&quot;hid&quot;:&quot;loops&quot;,&quot;codeblockOffset&quot;:5,&quot;secid&quot;:7,&quot;range&quot;:&quot;1924-2619&quot;} -->
+<h3 class="sectionedit8" id="error_handling">Error Handling</h3>
+<div class="level3">
+
+<p>
+Python code can be wrapped in a <strong>try</strong> block, which if an unhandled error occurs, will fall over to the subsequent <strong>except</strong> block, an optional <strong>finally</strong> block contains code that will execute regardless of whether the code in the try block failed or not.
+</p>
+<pre class="code python">nums <span class="sy0">=</span> <span class="br0">&#91;</span><span class="st0">'x'</span><span class="sy0">,</span> <span class="st0">'y'</span><span class="sy0">,</span> <span class="st0">'z'</span><span class="br0">&#93;</span>
+&nbsp;
+<span class="kw1">try</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="kw2">sum</span><span class="br0">&#40;</span>nums<span class="br0">&#41;</span><span class="br0">&#41;</span>
+&nbsp;
+<span class="kw1">except</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Cannot print the sum! Your variables are not numbers.'</span><span class="br0">&#41;</span>
+&nbsp;
+<span class="kw1">finally</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Hope you got the result you want!'</span><span class="br0">&#41;</span></pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Error Handling&quot;,&quot;hid&quot;:&quot;error_handling&quot;,&quot;codeblockOffset&quot;:7,&quot;secid&quot;:8,&quot;range&quot;:&quot;2620-&quot;} -->

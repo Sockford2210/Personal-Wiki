@@ -1,0 +1,4 @@
+i <span class="sy0">=</span> <span class="nu0">3</span>
+<span class="kw1">while</span> i <span class="sy0">&lt;</span> <span class="nu0">258</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span>i<span class="br0">&#41;</span>
+   i <span class="sy0">=</span> i ** <span class="nu0">2</span>

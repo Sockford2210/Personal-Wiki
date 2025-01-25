@@ -23,7 +23,7 @@ This is a wiki for storing and cataloguing my technical knowledge for personal a
   * Languages
     * C#
     * C++
-    * Python
+    * [[python|Python]]
   * [[code architecture|Code Architecture]]
     * [[object oriented programming|Object Oriented Programming]]
     * [[application layers|Layers]]

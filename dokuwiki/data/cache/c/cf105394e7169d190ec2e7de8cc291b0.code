@@ -1,0 +1,4 @@
+nums <span class="sy0">=</span> <span class="br0">&#91;</span><span class="nu0">3</span><span class="sy0">,</span> <span class="nu0">4</span><span class="sy0">,</span> <span class="nu0">16</span><span class="br0">&#93;</span>
+&nbsp;
+<span class="kw1">for</span> num <span class="kw1">in</span> nums:
+   <span class="kw1">print</span><span class="br0">&#40;</span>num ** <span class="nu0">2</span><span class="br0">&#41;</span>

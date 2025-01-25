@@ -1,0 +1,10 @@
+nums <span class="sy0">=</span> <span class="br0">&#91;</span><span class="st0">'x'</span><span class="sy0">,</span> <span class="st0">'y'</span><span class="sy0">,</span> <span class="st0">'z'</span><span class="br0">&#93;</span>
+&nbsp;
+<span class="kw1">try</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="kw2">sum</span><span class="br0">&#40;</span>nums<span class="br0">&#41;</span><span class="br0">&#41;</span>
+&nbsp;
+<span class="kw1">except</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Cannot print the sum! Your variables are not numbers.'</span><span class="br0">&#41;</span>
+&nbsp;
+<span class="kw1">finally</span>:
+   <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Hope you got the result you want!'</span><span class="br0">&#41;</span>
