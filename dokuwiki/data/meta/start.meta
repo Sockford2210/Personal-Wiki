@@ -1,4 +1,4 @@
-a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1737813715;s:8:"modified";i:1737841181;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:9:{s:4:"date";i:1737841181;s:2:"ip";s:10:"172.18.0.1";s:4:"type";s:1:"E";s:2:"id";s:5:"start";s:4:"user";s:0:"";s:3:"sum";s:11:"[Contents] ";s:5:"extra";s:0:"";s:10:"sizechange";i:-24;s:4:"mode";s:4:"page";}s:5:"title";s:8:"Overview";s:11:"description";a:2:{s:15:"tableofcontents";a:2:{i:0;a:4:{s:3:"hid";s:8:"overview";s:5:"title";s:8:"Overview";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:8:"contents";s:5:"title";s:8:"Contents";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:265:"Overview
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1747818521;s:8:"modified";i:1747818873;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:9:{s:4:"date";i:1747818873;s:2:"ip";s:12:"192.168.65.1";s:4:"type";s:1:"E";s:2:"id";s:5:"start";s:4:"user";s:0:"";s:3:"sum";s:11:"[Contents] ";s:5:"extra";s:0:"";s:10:"sizechange";i:-8;s:4:"mode";s:4:"page";}s:5:"title";s:8:"Overview";s:11:"description";a:2:{s:15:"tableofcontents";a:2:{i:0;a:4:{s:3:"hid";s:8:"overview";s:5:"title";s:8:"Overview";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:8:"contents";s:5:"title";s:8:"Contents";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:267:"Overview
 
 This is a wiki for storing and cataloguing my technical knowledge for personal and professional use.
 
@@ -10,10 +10,8 @@ Contents
 				*  DockerFile
 				*  Docker Compose
 
+			*  Kubernetes
 
 		*  Security
 			*  Certificates
-				*  OpenSSL
-
-
-		*";}s:8:"relation";a:2:{s:10:"references";a:10:{s:6:"docker";b:1;s:7:"openssl";b:0;s:5:"msys2";b:0;s:5:"mingw";b:1;s:6:"python";b:1;s:17:"code_architecture";b:1;s:27:"object_oriented_programming";b:1;s:18:"application_layers";b:1;s:20:"domain_driven_design";b:0;s:15:"factory_pattern";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:4:{s:4:"date";a:2:{s:7:"created";i:1737813715;s:8:"modified";i:1737841181;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:9:{s:4:"date";i:1737841181;s:2:"ip";s:10:"172.18.0.1";s:4:"type";s:1:"E";s:2:"id";s:5:"start";s:4:"user";s:0:"";s:3:"sum";s:11:"[Contents] ";s:5:"extra";s:0:"";s:10:"sizechange";i:-24;s:4:"mode";s:4:"page";}}}
+				*";}s:8:"relation";a:2:{s:10:"references";a:11:{s:6:"docker";b:1;s:3:"k8s";b:0;s:7:"openssl";b:0;s:5:"msys2";b:0;s:5:"mingw";b:1;s:6:"python";b:1;s:17:"code_architecture";b:1;s:27:"object_oriented_programming";b:1;s:18:"application_layers";b:1;s:20:"domain_driven_design";b:0;s:15:"factory_pattern";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:4:{s:4:"date";a:2:{s:7:"created";i:1747818521;s:8:"modified";i:1747818873;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:9:{s:4:"date";i:1747818873;s:2:"ip";s:12:"192.168.65.1";s:4:"type";s:1:"E";s:2:"id";s:5:"start";s:4:"user";s:0:"";s:3:"sum";s:11:"[Contents] ";s:5:"extra";s:0:"";s:10:"sizechange";i:-8;s:4:"mode";s:4:"page";}}}

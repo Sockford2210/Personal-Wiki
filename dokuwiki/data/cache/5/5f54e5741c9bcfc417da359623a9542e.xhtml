@@ -1,0 +1,22 @@
+
+<p>
+Kubernetes is a container-orechestration system.
+</p>
+
+<p>
+It allows for the management of multiple containers(nodes) across different computers as a single unit. This single unit is the &#039;cluster&#039;, and the management of nodes is performed through a &#039;control plane&#039;.
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=k8s&amp;media=wiki:k8s_cluster_diagram.png" class="media" title="wiki:k8s_cluster_diagram.png"><img src="/lib/exe/fetch.php?media=wiki:k8s_cluster_diagram.png" class="media" loading="lazy" alt="" /></a>
+</p>
+
+<p>
+##Control Plane
+The Control Plane is responsible for managing the cluster. The Control Plane coordinates all activities in your cluster, such as scheduling applications, maintaining applications&#039; desired state, scaling applications, and rolling out new updates.
+</p>
+
+<p>
+##Node
+A node is a VM or a physical computer that serves as a worker machine in a Kubernetes cluster. Each node has a Kubelet, which is an agent for managing the node and communicating with the Kubernetes control plane. The node should also have tools for handling container operations, such as containerd or CRI-O. 
+</p>

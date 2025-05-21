@@ -8,6 +8,7 @@ This is a wiki for storing and cataloguing my technical knowledge for personal a
       * [[docker|Docker]]
         * DockerFile
         * Docker Compose
+      * [[k8s|Kubernetes]]
     * Security
       * Certificates
         * [[openssl|OpenSSL]]
