@@ -1,0 +1,1 @@
+<span class="kw1">const</span> myDiv <span class="sy0">=</span> <span class="sy0">&lt;</span>div className<span class="sy0">=</span><span class="st0">'big'</span><span class="sy0">&gt;</span>I AM A BIG DIV<span class="sy0">&lt;/</span>div<span class="sy0">&gt;</span>

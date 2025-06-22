@@ -1,0 +1,5 @@
+<span class="co1">// Allowed in JSX:</span>
+<span class="sy0">&lt;</span>br <span class="sy0">/&gt;</span>
+&nbsp;
+<span class="co1">// NOT allowed in JSX:</span>
+<span class="sy0">&lt;</span>br<span class="sy0">&gt;</span>

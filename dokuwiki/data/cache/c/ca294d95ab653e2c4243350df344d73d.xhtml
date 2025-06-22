@@ -1,0 +1,88 @@
+
+<h2 class="sectionedit1" id="overview">Overview</h2>
+<div class="level2">
+
+<p>
+React JS is a JavaScript library used for building dynamic and interactive user interfaces, especially for single-page applications (SPAs). It allows developers to create reusable UI components that efficiently update and render when data changes.
+</p>
+
+<p>
+Key features of react
+</p>
+<ul>
+<li class="level1"><div class="li"> Component-Based Architecture: Everything in React is a component, these are reusable pieces of code that represent parts of the UI. This modularity makes apps easier to build and maintain.</div>
+</li>
+<li class="level1"><div class="li"> Virtual DOM: React uses a virtual representation of the DOM to detect changes and update only the parts of the real DOM that need to change. This makes updates faster and more efficient.</div>
+</li>
+<li class="level1"><div class="li"> JSX (JavaScript XML): React uses JSX, a syntax extension that lets you write <abbr title="HyperText Markup Language">HTML</abbr>-like code directly in JavaScript.</div>
+</li>
+<li class="level1"><div class="li"> One-Way Data Binding: Data flows in a single direction, from parent to child components, which helps keep things predictable and easier to debug.</div>
+</li>
+<li class="level1"><div class="li"> Declarative UI: You describe what the UI should look like for a given state, and React takes care of updating the DOM when that state changes.</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Overview&quot;,&quot;hid&quot;:&quot;overview&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-1094&quot;} -->
+<h2 class="sectionedit2" id="jsx">JSX</h2>
+<div class="level2">
+
+<p>
+JSX (JavaScript XML) is like html that compiles down to JavaScript and becomes html in the browser, it&#039;s how the markup for react components are defined.
+As it boils down to JavaScript there are certain keywords you can&#039;t use in JSX. A key one is that you can&#039;t use &#039;class&#039; when defining a html element as class is reserved keyword in JS, instead you have to use &#039;className&#039;.
+As it&#039;s effectively just JavaScript, you can store the JSX in variables which is what makes it reusable.
+An example of JSX stored in a variable:
+</p>
+<pre class="code javascript"><span class="kw1">const</span> myDiv <span class="sy0">=</span> <span class="sy0">&lt;</span>div className<span class="sy0">=</span><span class="st0">'big'</span><span class="sy0">&gt;</span>I AM A BIG DIV<span class="sy0">&lt;/</span>div<span class="sy0">&gt;</span></pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;JSX&quot;,&quot;hid&quot;:&quot;jsx&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;1095-1712&quot;} -->
+<h3 class="sectionedit3" id="elements">Elements</h3>
+<div class="level3">
+
+<p>
+Each JSX block must have a single root element.
+For self closing elements such as &lt;img&gt;, you have to include the closing slash
+so:
+</p>
+<pre class="code html4strict">// Allowed in JSX:
+<span class="sc2">&lt;<a href="http://december.com/html/4/element/br.html"><span class="kw2">br</span></a> <span class="sy0">/</span>&gt;</span>
+&nbsp;
+// NOT allowed in JSX:
+<span class="sc2">&lt;<a href="http://december.com/html/4/element/br.html"><span class="kw2">br</span></a>&gt;</span></pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Elements&quot;,&quot;hid&quot;:&quot;elements&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:3,&quot;range&quot;:&quot;1713-1936&quot;} -->
+<h3 class="sectionedit4" id="multiline">MultiLine</h3>
+<div class="level3">
+
+<p>
+To define multi line JSX blocks you must encase surround the code with brackets.
+e.g.:
+</p>
+<pre class="code javascript"><span class="kw1">const</span> profile <span class="sy0">=</span> <span class="br0">&#40;</span>
+  <span class="sy0">&lt;</span>div<span class="sy0">&gt;</span>
+    <span class="sy0">&lt;</span>h1<span class="sy0">&gt;</span>John Smith<span class="sy0">&lt;/</span>h1<span class="sy0">&gt;</span>
+    <span class="sy0">&lt;</span>img src<span class="sy0">=</span><span class="st0">&quot;images/john.png&quot;</span><span class="sy0">&gt;</span>
+    <span class="sy0">&lt;</span>article<span class="sy0">&gt;</span>
+      My name is John Smith.
+      <span class="sy0">&lt;</span>br<span class="sy0">&gt;</span>
+      I am a software developer.
+      <span class="sy0">&lt;</span>br<span class="sy0">&gt;</span>
+      I specialize <span class="kw1">in</span> creating React applications.
+    <span class="sy0">&lt;/</span>article<span class="sy0">&gt;</span>
+  <span class="sy0">&lt;/</span>div<span class="sy0">&gt;</span>
+<span class="br0">&#41;</span><span class="sy0">;</span></pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;MultiLine&quot;,&quot;hid&quot;:&quot;multiline&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:4,&quot;range&quot;:&quot;1937-2326&quot;} -->
+<h3 class="sectionedit5" id="javascript_inside_jsx">Javascript inside JSX</h3>
+<div class="level3">
+
+<p>
+To run code as normal javascript inside a JSX statement, escape the JSX with curly brackets e.g.:
+</p>
+<pre class="code javascript"><span class="kw1">const</span> five <span class="sy0">=</span> <span class="sy0">&lt;</span>h1<span class="sy0">&gt;</span><span class="br0">&#123;</span><span class="nu0">2</span> <span class="sy0">+</span> <span class="nu0">3</span><span class="br0">&#125;</span><span class="sy0">&lt;/</span>h1<span class="sy0">&gt;</span></pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Javascript inside JSX&quot;,&quot;hid&quot;:&quot;javascript_inside_jsx&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:5,&quot;range&quot;:&quot;2327-&quot;} -->

@@ -25,6 +25,9 @@ This is a wiki for storing and cataloguing my technical knowledge for personal a
     * C#
     * C++
     * [[python|Python]]
+    * [[java|Java]]
+    * [[js|JavaScript]]
+      *[[react|React]]
   * [[code architecture|Code Architecture]]
     * [[object oriented programming|Object Oriented Programming]]
     * [[application layers|Layers]]

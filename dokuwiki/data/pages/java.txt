@@ -1,0 +1,29 @@
+=====Overview=====
+
+Java is a high-level, general-purpose language that is memory safe. Java is an Object-oriented language. Functionality is defined within classes and exposed by members and functions of those classes.
+
+Java applications run on a Java Virtual Machine (JVM). JVMs abstract the running of the application from the underlying computer system. This allows java applications to be highly portable. This is where the 'write once, run anwhere' definition of Java comes from.
+
+====Access Modifiers====
+Access modifiers define where properties can be accessed from. There are 4 types of access modifiers in Java:
+    * private: The most restrictive modifier. It limits access to methods and variables to the class in which they are declared. private is chosen when there is no need to use certain methods or variables outside the class.
+    * default: Allows access only from within the current package. If there is no specified access modifier, the method or variable will take on this one. Learn more about the default modifier.
+    * protected: Allows access to a method or variable only from within the current package, unless it is accessed through a child class outside of the package. Learn more about the protected modifier.
+    * public: The least restrictive modifier. It allows access to a class, method or variable not only from within the class in which it is declared, but outside as well. This is the modifier we will most commonly use, but to understand the scenarios in which to use the others, check out the Oracle documentation.
+
+====Static====
+'static' is a keyword that can be added after the access modifier of a method or variable. It indicates that the declared entity is the same across all instances of that class and that it can be accessed even before an object of that class is created. static methods and variables are initialized only once upon execution and are shared by all instances of the class.
+The entry point method 'main' always needs to be static cause it must be accessed before any objects are created.
+
+====Overriding====
+Method overriding is where a subclass overrides the implementation of a method with the same name and parameter list with it's own specific implementation.
+
+====Overloading====
+Overloading concerns the repeat implementation of a method with the same name (so therefore should do approximately the same thing) but with a different parameter list (so the actual implementation differs) e.g. An method 'Add(int a, int b) that adds a and b and returns the result, may be overridden by Add(int a, int b, int c) which adds a, b, and c and returns the result. 
+
+====Casting====
+In casting it's important to be aware of 'higher' and 'lower' data types, where a 'higher' data type contains more information. e.g. a float is a higher data type than int.
+Casting from higher to lower inherently results in loss of data so is not implicit, whereas casting a lower variable to a higher data type does not result in loss of data so can be done implicitly.
+
+====Interfaces====
+An interface is a collection of abstract methods which lay out the required behaviour of any class that implements it. 

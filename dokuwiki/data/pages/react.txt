@@ -1,0 +1,55 @@
+===== Overview =====
+React JS is a JavaScript library used for building dynamic and interactive user interfaces, especially for single-page applications (SPAs). It allows developers to create reusable UI components that efficiently update and render when data changes.
+
+Key features of react
+  * Component-Based Architecture: Everything in React is a component, these are reusable pieces of code that represent parts of the UI. This modularity makes apps easier to build and maintain.
+  * Virtual DOM: React uses a virtual representation of the DOM to detect changes and update only the parts of the real DOM that need to change. This makes updates faster and more efficient.
+  * JSX (JavaScript XML): React uses JSX, a syntax extension that lets you write HTML-like code directly in JavaScript.
+  * One-Way Data Binding: Data flows in a single direction, from parent to child components, which helps keep things predictable and easier to debug.
+  * Declarative UI: You describe what the UI should look like for a given state, and React takes care of updating the DOM when that state changes.
+
+=====JSX=====
+JSX (JavaScript XML) is like html that compiles down to JavaScript and becomes html in the browser, it's how the markup for react components are defined.
+As it boils down to JavaScript there are certain keywords you can't use in JSX. A key one is that you can't use 'class' when defining a html element as class is reserved keyword in JS, instead you have to use 'className'.
+As it's effectively just JavaScript, you can store the JSX in variables which is what makes it reusable.
+An example of JSX stored in a variable:
+<code javascript>
+const myDiv = <div className='big'>I AM A BIG DIV</div>
+</code>
+
+====Elements====
+Each JSX block must have a single root element.
+For self closing elements such as <img>, you have to include the closing slash
+so:
+<code html>
+// Allowed in JSX:
+<br />
+
+// NOT allowed in JSX:
+<br>
+</code>
+
+====MultiLine====
+To define multi line JSX blocks you must encase surround the code with brackets.
+e.g.:
+<code javascript>
+const profile = (
+  <div>
+    <h1>John Smith</h1>
+    <img src="images/john.png">
+    <article>
+      My name is John Smith.
+      <br>
+      I am a software developer.
+      <br>
+      I specialize in creating React applications.
+    </article>
+  </div>
+);
+</code>
+
+====Javascript inside JSX====
+To run code as normal javascript inside a JSX statement, escape the JSX with curly brackets e.g.:
+<code javascript>
+const five = <h1>{2 + 3}</h1>
+</code>

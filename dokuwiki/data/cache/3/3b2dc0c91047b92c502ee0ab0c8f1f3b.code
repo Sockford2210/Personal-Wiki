@@ -1,0 +1,13 @@
+<span class="kw1">const</span> profile <span class="sy0">=</span> <span class="br0">&#40;</span>
+  <span class="sy0">&lt;</span>div<span class="sy0">&gt;</span>
+    <span class="sy0">&lt;</span>h1<span class="sy0">&gt;</span>John Smith<span class="sy0">&lt;/</span>h1<span class="sy0">&gt;</span>
+    <span class="sy0">&lt;</span>img src<span class="sy0">=</span><span class="st0">&quot;images/john.png&quot;</span><span class="sy0">&gt;</span>
+    <span class="sy0">&lt;</span>article<span class="sy0">&gt;</span>
+      My name is John Smith.
+      <span class="sy0">&lt;</span>br<span class="sy0">&gt;</span>
+      I am a software developer.
+      <span class="sy0">&lt;</span>br<span class="sy0">&gt;</span>
+      I specialize <span class="kw1">in</span> creating React applications.
+    <span class="sy0">&lt;/</span>article<span class="sy0">&gt;</span>
+  <span class="sy0">&lt;/</span>div<span class="sy0">&gt;</span>
+<span class="br0">&#41;</span><span class="sy0">;</span>

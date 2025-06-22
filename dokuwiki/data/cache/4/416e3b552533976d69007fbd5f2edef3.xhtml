@@ -1,0 +1,80 @@
+
+<h2 class="sectionedit1" id="overview">Overview</h2>
+<div class="level2">
+
+<p>
+Java is a high-level, general-purpose language that is memory safe. Java is an Object-oriented language. Functionality is defined within classes and exposed by members and functions of those classes.
+</p>
+
+<p>
+Java applications run on a Java Virtual Machine (JVM). JVMs abstract the running of the application from the underlying computer system. This allows java applications to be highly portable. This is where the &#039;write once, run anwhere&#039; definition of Java comes from.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Overview&quot;,&quot;hid&quot;:&quot;overview&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-487&quot;} -->
+<h3 class="sectionedit2" id="access_modifiers">Access Modifiers</h3>
+<div class="level3">
+
+<p>
+Access modifiers define where properties can be accessed from. There are 4 types of access modifiers in Java:
+</p>
+<ul>
+<li class="level1"><div class="li"> private: The most restrictive modifier. It limits access to methods and variables to the class in which they are declared. private is chosen when there is no need to use certain methods or variables outside the class.</div>
+</li>
+<li class="level2"><div class="li"> default: Allows access only from within the current package. If there is no specified access modifier, the method or variable will take on this one. Learn more about the default modifier.</div>
+</li>
+<li class="level2"><div class="li"> protected: Allows access to a method or variable only from within the current package, unless it is accessed through a child class outside of the package. Learn more about the protected modifier.</div>
+</li>
+<li class="level2"><div class="li"> public: The least restrictive modifier. It allows access to a class, method or variable not only from within the class in which it is declared, but outside as well. This is the modifier we will most commonly use, but to understand the scenarios in which to use the others, check out the Oracle documentation.</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Access Modifiers&quot;,&quot;hid&quot;:&quot;access_modifiers&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;488-1558&quot;} -->
+<h3 class="sectionedit3" id="static">Static</h3>
+<div class="level3">
+
+<p>
+&#039;static&#039; is a keyword that can be added after the access modifier of a method or variable. It indicates that the declared entity is the same across all instances of that class and that it can be accessed even before an object of that class is created. static methods and variables are initialized only once upon execution and are shared by all instances of the class.
+The entry point method &#039;main&#039; always needs to be static cause it must be accessed before any objects are created.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Static&quot;,&quot;hid&quot;:&quot;static&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;1559-2056&quot;} -->
+<h3 class="sectionedit4" id="overriding">Overriding</h3>
+<div class="level3">
+
+<p>
+Method overriding is where a subclass overrides the implementation of a method with the same name and parameter list with it&#039;s own specific implementation.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Overriding&quot;,&quot;hid&quot;:&quot;overriding&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;2057-2232&quot;} -->
+<h3 class="sectionedit5" id="overloading">Overloading</h3>
+<div class="level3">
+
+<p>
+Overloading concerns the repeat implementation of a method with the same name (so therefore should do approximately the same thing) but with a different parameter list (so the actual implementation differs) e.g. An method &#039;Add(int a, int b) that adds a and b and returns the result, may be overridden by Add(int a, int b, int c) which adds a, b, and c and returns the result. 
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Overloading&quot;,&quot;hid&quot;:&quot;overloading&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;2233-2630&quot;} -->
+<h3 class="sectionedit6" id="casting">Casting</h3>
+<div class="level3">
+
+<p>
+In casting it&#039;s important to be aware of &#039;higher&#039; and &#039;lower&#039; data types, where a &#039;higher&#039; data type contains more information. e.g. a float is a higher data type than int.
+Casting from higher to lower inherently results in loss of data so is not implicit, whereas casting a lower variable to a higher data type does not result in loss of data so can be done implicitly.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Casting&quot;,&quot;hid&quot;:&quot;casting&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;2631-3018&quot;} -->
+<h3 class="sectionedit7" id="interfaces">Interfaces</h3>
+<div class="level3">
+
+<p>
+An interface is a collection of abstract methods which lay out the required behaviour of any class that implements it. 
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Interfaces&quot;,&quot;hid&quot;:&quot;interfaces&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;3019-&quot;} -->

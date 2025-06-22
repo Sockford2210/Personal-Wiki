@@ -1,22 +1,3 @@
-1708728925	172.18.0.1	C	start		created		120
-1726600839	127.0.0.1	E	start		external edit		2
-1726602672	172.18.0.1	E	start		Added contents		350
-1726602859	172.18.0.1	E	start		Added docker page		21
-1726602975	172.18.0.1	E	start		new pages		2
-1726608027	172.18.0.1	C	docker		docker page created		838
-1726928017	172.18.0.1	E	start		[Contents] 		58
-1726930241	172.18.0.1	C	application_layers		created layered architecture page		538
-1726930936	172.18.0.1	E	application_layers				1028
-1726931142	172.18.0.1	E	application_layers		Further reading section		130
-1726931210	172.18.0.1	E	start		added architecture page		22
-1726931415	172.18.0.1	C	code_architecture		created code architecture page		417
-1726931769	172.18.0.1	E	start		[Contents] 		94
-1730834139	172.18.0.1	E	start		[Contents] 		62
-1730834349	172.18.0.1	C	mingw		created		105
-1732973246	172.18.0.1	E	start		[Contents] 		66
-1732974466	172.18.0.1	C	object_oriented_programming		created		1403
-1732974878	172.18.0.1	E	object_oriented_programming		[Encapsulation] 		1158
-1737813715	127.0.0.1	E	start		external edit		35
 1737841181	172.18.0.1	E	start		[Contents] 		-24
 1737841784	172.18.0.1	C	python		created		2558
 1737841845	172.18.0.1	E	python				-10
@@ -29,3 +10,22 @@
 1747818521	127.0.0.1	E	start		external edit		35
 1747818873	192.168.65.1	E	start		[Contents] 		-8
 1747819644	192.168.65.1	C	k8s		created		872
+1748982281	127.0.0.1	E	start		external edit		36
+1748982454	172.18.0.1	E	start		[Contents] 		-16
+1748982949	172.18.0.1	C	java		created		1556
+1748983117	172.18.0.1	E	java		[Access Modifiers] 		385
+1748983166	172.18.0.1	E	java		[Static] 		113
+1748983884	172.18.0.1	E	java		[Static] 		574
+1748984215	172.18.0.1	E	java		[Overloading] 		388
+1748984445	172.18.0.1	E	java		[Casting] 		140
+1750596110	172.18.0.1	E	start				46
+1750596130	172.18.0.1	E	start				1
+1750596932	172.18.0.1	C	react		created		1083
+1750596972	172.18.0.1	E	react				10
+1750601443	172.18.0.1	E	react				607
+1750601722	172.18.0.1	E	react				11
+1750602113	172.18.0.1	E	react				456
+1750602258	172.18.0.1	E	react				165
+1750602348	172.18.0.1	E	react				-1
+1750602366	172.18.0.1	E	react				-6
+1750602948	172.18.0.1	E	react				185

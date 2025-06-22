@@ -1,0 +1,5 @@
+// Allowed in JSX:
+<span class="sc2">&lt;<a href="http://december.com/html/4/element/br.html"><span class="kw2">br</span></a> <span class="sy0">/</span>&gt;</span>
+&nbsp;
+// NOT allowed in JSX:
+<span class="sc2">&lt;<a href="http://december.com/html/4/element/br.html"><span class="kw2">br</span></a>&gt;</span>
