@@ -25,6 +25,7 @@ This is a wiki for storing and cataloguing my technical knowledge for personal a
     * C#
     * C++
     * [[python|Python]]
+      * [[python virtual environment|Python Virtual Environment]]
     * [[java|Java]]
     * [[js|JavaScript]]
       *[[react|React]]

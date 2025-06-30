@@ -4,7 +4,18 @@
 
 </div>
 <!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Python&quot;,&quot;hid&quot;:&quot;python&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-17&quot;} -->
-<h3 class="sectionedit2" id="case_conventions">Case Conventions</h3>
+<h3 class="sectionedit2" id="python_virutal_machine">Python Virutal Machine</h3>
+<div class="level3">
+
+<p>
+The Python Virtual Machine (PVM) is the runtime engine that executes Python code. It&#039;s essentially a program that interprets and executes bytecode, which is an intermediate representation of Python source code.
+It serves as an abstraction layer between the Python bytecode and the underlying hardware, providing a consistent environment for running Python programs across different platforms; so similar to the Java Virtual Machine, it allows you to write python scripts agnostically of the underlying system running them. 
+The Python VM is implemented in CPython, the reference implementation of Python.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Python Virutal Machine&quot;,&quot;hid&quot;:&quot;python_virutal_machine&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;18-654&quot;} -->
+<h3 class="sectionedit3" id="case_conventions">Case Conventions</h3>
 <div class="level3">
 <ul>
 <li class="level1"><div class="li"><strong>Classes</strong> - PascalCase</div>
@@ -24,8 +35,8 @@ Single line comments are defined by a &#039;#&#039; at the beginning of text you
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Case Conventions&quot;,&quot;hid&quot;:&quot;case_conventions&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;18-446&quot;} -->
-<h3 class="sectionedit3" id="console">Console</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Case Conventions&quot;,&quot;hid&quot;:&quot;case_conventions&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;655-1083&quot;} -->
+<h3 class="sectionedit4" id="console">Console</h3>
 <div class="level3">
 
 </div>
@@ -49,8 +60,8 @@ String can be output to the console using the &#039;print&#039; method:
 <pre class="code python"><span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'My name is Ryan'</span><span class="br0">&#41;</span></pre>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Console&quot;,&quot;hid&quot;:&quot;console&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;447-729&quot;} -->
-<h3 class="sectionedit4" id="strings">Strings</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Console&quot;,&quot;hid&quot;:&quot;console&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;1084-1366&quot;} -->
+<h3 class="sectionedit5" id="strings">Strings</h3>
 <div class="level3">
 
 <p>
@@ -62,8 +73,8 @@ A formatted literal string can be created by adding an &#039;f&#039; to the begi
 <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Very nice to meet you, {}!'</span>.<span class="me1">format</span><span class="br0">&#40;</span>name<span class="br0">&#41;</span><span class="br0">&#41;</span></pre>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Strings&quot;,&quot;hid&quot;:&quot;strings&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:4,&quot;range&quot;:&quot;730-1148&quot;} -->
-<h3 class="sectionedit5" id="variables">Variables</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Strings&quot;,&quot;hid&quot;:&quot;strings&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:5,&quot;range&quot;:&quot;1367-1785&quot;} -->
+<h3 class="sectionedit6" id="variables">Variables</h3>
 <div class="level3">
 
 <p>
@@ -90,8 +101,8 @@ e.g. type(temperature)
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Variables&quot;,&quot;hid&quot;:&quot;variables&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:5,&quot;range&quot;:&quot;1149-1494&quot;} -->
-<h3 class="sectionedit6" id="conditional_statements">Conditional Statements</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Variables&quot;,&quot;hid&quot;:&quot;variables&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:6,&quot;range&quot;:&quot;1786-2131&quot;} -->
+<h3 class="sectionedit7" id="conditional_statements">Conditional Statements</h3>
 <div class="level3">
 
 <p>
@@ -107,8 +118,8 @@ Conditional statements in python can be defined as <strong>if</strong>, <strong>
    <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'You do not pass the course!'</span><span class="br0">&#41;</span></pre>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Conditional Statements&quot;,&quot;hid&quot;:&quot;conditional_statements&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:6,&quot;range&quot;:&quot;1495-1923&quot;} -->
-<h3 class="sectionedit7" id="loops">Loops</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Conditional Statements&quot;,&quot;hid&quot;:&quot;conditional_statements&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:7,&quot;range&quot;:&quot;2132-2560&quot;} -->
+<h3 class="sectionedit8" id="loops">Loops</h3>
 <div class="level3">
 
 <p>
@@ -154,8 +165,8 @@ There are three keywords used to control/disrupt loops:
 </ul>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Loops&quot;,&quot;hid&quot;:&quot;loops&quot;,&quot;codeblockOffset&quot;:5,&quot;secid&quot;:7,&quot;range&quot;:&quot;1924-2619&quot;} -->
-<h3 class="sectionedit8" id="error_handling">Error Handling</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Loops&quot;,&quot;hid&quot;:&quot;loops&quot;,&quot;codeblockOffset&quot;:5,&quot;secid&quot;:8,&quot;range&quot;:&quot;2561-3256&quot;} -->
+<h3 class="sectionedit9" id="error_handling">Error Handling</h3>
 <div class="level3">
 
 <p>
@@ -173,4 +184,4 @@ Python code can be wrapped in a <strong>try</strong> block, which if an unhandle
    <span class="kw1">print</span><span class="br0">&#40;</span><span class="st0">'Hope you got the result you want!'</span><span class="br0">&#41;</span></pre>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Error Handling&quot;,&quot;hid&quot;:&quot;error_handling&quot;,&quot;codeblockOffset&quot;:7,&quot;secid&quot;:8,&quot;range&quot;:&quot;2620-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Error Handling&quot;,&quot;hid&quot;:&quot;error_handling&quot;,&quot;codeblockOffset&quot;:7,&quot;secid&quot;:9,&quot;range&quot;:&quot;3257-&quot;} -->

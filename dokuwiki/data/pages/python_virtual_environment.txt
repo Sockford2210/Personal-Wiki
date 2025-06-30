@@ -1,0 +1,33 @@
+=====Python Virtual Environment=====
+A virtual environment in Python is an isolated environment on your computer, where you can run and test your Python projects.
+
+It allows you to manage project-specific dependencies without interfering with other projects or the original Python installation.
+
+Think of a virtual environment as a separate container for each Python project. Each container:
+  * Has its own Python interpreter
+  * Has its own set of installed packages
+  * Is isolated from other virtual environments
+  * Can have different versions of the same package
+
+Using virtual environments is important because:
+  * It prevents package version conflicts between projects
+  * Makes projects more portable and reproducible
+  * Keeps your system Python installation clean
+  * Allows testing with different Python versions
+
+====Setup====
+===Windows===
+To set up a new virual environment in windows:
+Open a new terminal and run:
+<code>python -m venv .venv</code>
+
+This will create a new folder '.venv' for your virtual environment.
+You can then activate the virtual environment by:
+<code>
+.venv\scripts\activate
+</code>
+
+Then when inside the virtual environment install packages using pip and run scripts as you would normally.
+
+====References====
+  - [[https://www.w3schools.com/python/python_virtualenv.asp|W3W Schools Python Virtual Environment]] 

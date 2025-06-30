@@ -1,14 +1,3 @@
-1737841181	172.18.0.1	E	start		[Contents] 		-24
-1737841784	172.18.0.1	C	python		created		2558
-1737841845	172.18.0.1	E	python				-10
-1737841870	172.18.0.1	E	python				4
-1737841916	172.18.0.1	E	python				12
-1737842265	172.18.0.1	E	python				527
-1737842346	172.18.0.1	E	python				26
-1737842388	172.18.0.1	E	python				-8
-1737842423	172.18.0.1	E	python		[Naming Conventions] 		-2
-1747818521	127.0.0.1	E	start		external edit		35
-1747818873	192.168.65.1	E	start		[Contents] 		-8
 1747819644	192.168.65.1	C	k8s		created		872
 1748982281	127.0.0.1	E	start		external edit		36
 1748982454	172.18.0.1	E	start		[Contents] 		-16
@@ -29,3 +18,15 @@
 1750602348	172.18.0.1	E	react				-1
 1750602366	172.18.0.1	E	react				-6
 1750602948	172.18.0.1	E	react				185
+1751311632	172.18.0.1	E	start				58
+1751311820	172.18.0.1	C	python_virtual_machine		created		623
+1748982281	127.0.0.1	E	python		external edit		95
+1751311966	172.18.0.1	E	python				542
+1751312015	172.18.0.1	D	python_virtual_machine		removed		-623
+1751312043	172.18.0.1	E	start				8
+1751312117	172.18.0.1	C	python_virtual_environment		created		810
+1751312137	172.18.0.1	E	python_virtual_environment				16
+1751312251	172.18.0.1	E	python_virtual_environment				124
+1751312389	172.18.0.1	E	python_virtual_environment				140
+1751316452	172.18.0.1	E	python_virtual_environment				266
+1751316506	172.18.0.1	E	python_virtual_environment		[Setup] 		-3
